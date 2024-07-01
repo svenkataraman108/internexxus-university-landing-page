@@ -1,0 +1,257 @@
+.forUniversitiesLandingPageChild {
+  width: 1518px;
+  height: 978px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1043px;
+  left: calc(50% - 759px);
+  flex-shrink: 0;
+  z-index: 3;
+}
+.knowledgeInThe {
+  width: 1389px;
+  height: 104px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1317px;
+  left: -579px;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: right;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 6;
+}
+.div {
+  width: 453.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+  z-index: 5;
+}
+.companyLogosParent,
+.sectionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.companyLogosParent {
+  justify-content: flex-end;
+  padding: 742px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.sectionParent {
+  justify-content: flex-start;
+  gap: 61px;
+}
+.titleGoesHere {
+  position: absolute;
+  height: 1.46%;
+  width: 16%;
+  top: 12.65%;
+  left: 172.64%;
+  font-size: 7.1px;
+  display: inline-block;
+  color: #5c007d;
+}
+.loremIpsumDolor,
+.loremIpsumDolor1 {
+  position: absolute;
+  height: 1.02%;
+  width: 16%;
+  top: 14.71%;
+  left: 172.67%;
+  font-size: var(--font-size-9xs-4);
+  font-weight: 300;
+  color: var(--color-darkgray);
+  display: inline-block;
+}
+.loremIpsumDolor1 {
+  top: 26.28%;
+  left: 167.9%;
+}
+.contactShapeIcon {
+  position: absolute;
+  height: 8.21%;
+  width: 3.84%;
+  top: 56.75%;
+  right: -68.66%;
+  bottom: 35.04%;
+  left: 164.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text,
+.text1,
+.text2,
+.text3 {
+  position: absolute;
+  height: 3.22%;
+  top: 39.43%;
+  left: 142.02%;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  transform: rotate(-13deg);
+  transform-origin: 0 0;
+}
+.text1,
+.text2,
+.text3 {
+  height: 4.77%;
+  top: 30.73%;
+  left: 129.07%;
+  transform: rotate(60.6deg);
+}
+.text2,
+.text3 {
+  height: 3.21%;
+  top: 11.72%;
+  left: 134.11%;
+  transform: rotate(-12.6deg);
+}
+.text3 {
+  height: 4.84%;
+  top: 21.2%;
+  left: 150.29%;
+  transform: rotate(66.3deg);
+}
+.bookADemo {
+  margin: 0;
+  position: absolute;
+  top: 188.7px;
+  left: 464px;
+  font-size: var(--font-size-31xl);
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+}
+.loremIpsumDolor2 {
+  align-self: stretch;
+  width: 241.9px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.infoContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 623px 0 1988px;
+}
+.infoBackground {
+  width: 286.6px;
+  height: 7px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: #2c72c4;
+}
+.contactInfo {
+  position: absolute;
+  top: 262.2px;
+  left: 622.2px;
+  width: 889.8px;
+  height: 28.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14.5px;
+  max-width: 100%;
+  font-size: var(--font-size-9xs-4);
+  color: var(--color-darkgray);
+}
+.bottomShapeIcon,
+.shapeElementIcon {
+  position: absolute;
+  top: 399.9px;
+  left: 412.5px;
+  width: 87.5px;
+  height: 87.5px;
+}
+.bottomShapeIcon {
+  top: 402.8px;
+  left: 1021.6px;
+  width: 81px;
+  height: 82.2px;
+}
+.reachOutMe {
+  align-self: stretch;
+  height: 686px;
+  position: relative;
+  background-color: var(--color-cornflowerblue-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.forUniversitiesLandingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .companyLogosParent {
+    padding-top: 482px;
+    box-sizing: border-box;
+  }
+  .reachOutMe {
+    height: auto;
+    min-height: 686;
+  }
+}
+@media screen and (max-width: 825px) {
+  .knowledgeInThe {
+    font-size: var(--font-size-21xl);
+  }
+  .companyLogosParent {
+    padding-top: 313px;
+    box-sizing: border-box;
+  }
+  .sectionParent {
+    gap: var(--gap-11xl);
+  }
+  .bookADemo {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .knowledgeInThe {
+    font-size: var(--font-size-11xl);
+  }
+  .companyLogosParent {
+    padding-top: 203px;
+    box-sizing: border-box;
+  }
+  .sectionParent {
+    gap: var(--gap-mini);
+  }
+  .bookADemo {
+    font-size: var(--font-size-11xl);
+  }
+}

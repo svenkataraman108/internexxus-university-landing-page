@@ -1,0 +1,60 @@
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.resourceHeading {
+  height: 86.1px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.frameParent,
+.resourceTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resourceTitle {
+  flex: 1;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  padding: 0 var(--padding-12xs) 0 0;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  padding: var(--padding-8xs-3) var(--padding-12xs) var(--padding-12xs-5)
+    var(--padding-11xs);
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,130 @@
+.headingElementsIcon {
+  position: absolute;
+  top: 139.6px;
+  left: 0;
+  width: 58.1px;
+  height: 56.3px;
+}
+.headingShapeIcons,
+.rectangleIcon,
+.titleGoesHere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rectangleIcon {
+  object-fit: cover;
+  display: none;
+}
+.headingShapeIcons,
+.titleGoesHere {
+  z-index: 4;
+}
+.titleGoesHere {
+  top: 4.1px;
+  left: 33.7px;
+  display: inline-block;
+  width: 234.7px;
+  height: 14px;
+  z-index: 5;
+}
+.headingDecorationsIcon {
+  position: absolute;
+  top: 24.4px;
+  left: 228.9px;
+  width: 28.8px;
+  height: 16.8px;
+  z-index: 5;
+}
+.headingElements,
+.headingShapes {
+  position: absolute;
+  top: 14.7px;
+  left: 24.7px;
+  width: 314px;
+  height: 58.2px;
+}
+.headingElements {
+  top: 93.9px;
+  left: 40.9px;
+  width: 387.1px;
+  height: 102.3px;
+  background-image: url(/public/rectangle@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 3;
+}
+.headingElementsIcon1 {
+  position: absolute;
+  top: 46.2px;
+  left: 0;
+  width: 58.1px;
+  height: 56.3px;
+  z-index: 4;
+}
+.rectangleIcon1,
+.titleGoesHere1,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rectangleIcon1 {
+  object-fit: cover;
+  display: none;
+}
+.titleGoesHere1,
+.vectorIcon {
+  z-index: 8;
+}
+.titleGoesHere1 {
+  top: 4px;
+  left: 33.7px;
+  display: inline-block;
+  width: 234.7px;
+  height: 14px;
+  z-index: 9;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 18.3px;
+  left: 225.2px;
+  width: 36.3px;
+  height: 21px;
+  z-index: 9;
+}
+.vectorParent {
+  position: absolute;
+  top: 15.2px;
+  left: 24.7px;
+  width: 314px;
+  height: 58.2px;
+}
+.headingElements1 {
+  position: absolute;
+  top: 0;
+  left: 40.9px;
+  width: 387.1px;
+  height: 102.3px;
+  background-image: url(/public/rectangle@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 7;
+}
+.headingElementsParent {
+  position: absolute;
+  top: 429.3px;
+  left: 2492px;
+  width: 428px;
+  height: 196.2px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

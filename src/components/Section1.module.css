@@ -1,0 +1,228 @@
+.lovedByStudents,
+.testimonialHeading {
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lovedByStudents {
+  margin: 0;
+  width: 563.4px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.72px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: inherit;
+  align-items: center;
+}
+.testimonialHeading {
+  width: 755.4px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.lampIcon {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  margin: 0 !important;
+  right: -115px;
+  bottom: -55px;
+  object-fit: contain;
+  z-index: 1;
+}
+.blockquote,
+.mySonWho {
+  flex-shrink: 0;
+  display: flex;
+}
+.mySonWho {
+  width: 314.9px;
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+}
+.blockquote {
+  margin-left: -424px;
+  height: 306px;
+  width: 400px;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-29xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-67xl) var(--padding-17xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.svgIcon,
+.svgIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.svgIcon1 {
+  left: 27.6px;
+}
+.svgParent {
+  width: 51.6px;
+  height: 24px;
+  position: relative;
+}
+.iWishThey,
+.leslieCarrillo {
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.iWishThey {
+  width: 322.9px;
+  max-width: 100%;
+}
+.leslieCarrillo {
+  width: 102px;
+  font-weight: 800;
+}
+.blockquote1,
+.testimonialQuotes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.blockquote1 {
+  width: 400px;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-29xl);
+  background-color: var(--color-white);
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-19xl) var(--padding-xl) var(--padding-17xl)
+    var(--padding-17xl);
+  font-size: var(--font-size-mini);
+}
+.testimonialQuotes {
+  width: 1512px;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 var(--padding-113xl);
+}
+.appleIcon,
+.bookIcon {
+  width: 500px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.appleIcon {
+  width: 396px;
+  object-fit: contain;
+}
+.buttonContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.appStoreButtons,
+.section,
+.testimonialContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appStoreButtons {
+  width: 989px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.section,
+.testimonialContent {
+  align-self: stretch;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter);
+}
+.section {
+  height: 908px;
+  background: linear-gradient(180deg, #c8fff2 50%, #afe5db);
+  overflow: hidden;
+  padding: var(--padding-64xl) 0 var(--padding-761xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-99xl);
+  z-index: 10;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1425px) {
+  .testimonialQuotes {
+    padding-left: var(--padding-47xl);
+    padding-right: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .section {
+    padding-top: var(--padding-35xl);
+    padding-bottom: var(--padding-488xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .appleIcon,
+  .bookIcon {
+    flex: 1;
+  }
+  .buttonContainer {
+    flex-wrap: wrap;
+  }
+  .section {
+    height: auto;
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-311xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .lovedByStudents {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .testimonialQuotes {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .section {
+    gap: var(--gap-40xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lovedByStudents {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+  .section {
+    gap: var(--gap-10xl);
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-195xl);
+    box-sizing: border-box;
+  }
+}

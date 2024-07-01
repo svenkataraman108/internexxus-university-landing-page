@@ -1,0 +1,141 @@
+.frameChild {
+  height: 998px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  display: none;
+  max-width: 100%;
+}
+.scholarcapScrollIcon {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  margin: 0 !important;
+  top: -343px;
+  left: -38px;
+  object-fit: cover;
+  z-index: 6;
+}
+.internexxus {
+  background: linear-gradient(190.8deg, #ccf0e8, #16d5a8 50%, #6288ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.whatIsInternexxusContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 7;
+}
+.scholarcapContent,
+.scholarcapLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.scholarcapLink {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.scholarcapContent {
+  width: 488px;
+  flex-direction: column;
+  padding: var(--padding-93xl) 0 0;
+  box-sizing: border-box;
+  min-width: 488px;
+}
+.weAreDedicated {
+  margin: 0;
+  width: 845px;
+  position: relative;
+  font-size: var(--font-size-19xl);
+  line-height: 110%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 845px;
+  max-width: 100%;
+  z-index: 6;
+}
+.forUniversitiesLandingPageInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-lightsteelblue);
+  justify-content: center;
+  padding: var(--padding-304xl) var(--padding-xl) var(--padding-7xs)
+    var(--padding-2xl);
+  gap: var(--gap-mini);
+  z-index: 5;
+}
+.forUniversitiesLandingPageInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) var(--padding-10xs) 0;
+  text-align: left;
+  font-size: var(--font-size-46xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1425px) {
+  .scholarcapContent,
+  .weAreDedicated {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .weAreDedicated {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-191xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .whatIsInternexxusContainer {
+    font-size: var(--font-size-33xl);
+    line-height: 57px;
+  }
+  .scholarcapContent {
+    min-width: 100%;
+  }
+  .weAreDedicated {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-117xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIsInternexxusContainer {
+    font-size: var(--font-size-20xl);
+    line-height: 43px;
+  }
+  .weAreDedicated {
+    font-size: var(--font-size-4xl);
+    line-height: 25px;
+  }
+}
